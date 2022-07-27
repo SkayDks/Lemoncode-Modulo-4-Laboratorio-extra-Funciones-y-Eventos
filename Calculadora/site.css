@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 20%;
+  min-width: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  flex-direction: column;
+  padding: 2px;
+  margin: 2px;
+}
+
+.row {
+  border: 1px solid black;
+  border-radius: 125px;
+  height: 50px;
+  margin: 5px 2px;
+  display: flex;
+}
+
+.num {
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.numUser {
+  text-align: center;
+  margin: 5px auto;
+  width: 90%;
+}
+
+.result {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.operatorsContainer {
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.operators {
+  padding: 5px;
+  margin: 0 auto;
+  font-size: 1em;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid black;
+}
